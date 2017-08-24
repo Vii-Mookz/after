@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menuAccurateProvider"
+          android:title="Accurate Provider"
+          android:onClick="onAccurateProvider"
+          />
+    <item android:id="@+id/menuLowPowerProvider"
+          android:title="Low Power Provider"
+          android:onClick="onLowPowerProvider"
+          />
+    <item android:id="@+id/menuStartNetworkListener"
+          android:title="Start Network Listener"
+          android:onClick="onStartNetworkListener"
+          />
+    <item android:id="@+id/menuStartPassiveListener"
+          android:title="Start Passive Listener"
+          android:onClick="onStartPassiveListener"
+          />
+    <item android:id="@+id/menuExit"
+          android:showAsAction="always"
+          android:title="Exit"
+          android:onClick="onExit"
+          android:icon="@android:drawable/ic_lock_power_off"/>
+</menu>
